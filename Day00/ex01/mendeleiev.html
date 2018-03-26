@@ -1,15 +1,22 @@
+<!DOCTYPE html>
 <HTML>
 	<HEAD>
 	<TITLE>TABLEAU DE MENDYLEIEV</TITLE>
 	<meta charset="UTF-8" />
 	<STYLE>
+		figure
+		{
+			text-align: center;
+			width = 30%; 
+			height = 30%;
+		}
 		.letter
 		{
 			line-height: 2vw;
 			text-align: center;
 			padding-right: 10%;
 			font-size: 2vw;
-			color :red;
+			color :#0645ad;
 		}
 		.masse
 		{
@@ -29,13 +36,15 @@
 		{
 			width: 4vw;
 			height: 4vw;
-			background-color: #a0ffa0;
 			border: 1px double rgb(36, 167, 24);
+			background-color: #a0ffa0;
 		}
 		.cell2
 		{
 			width: 4vw;
 			height: 4vw;
+			border: 1px double rgb(36, 167, 24);
+			background-color: #EEEEEE;
 		}
 		.noborder
 		{
@@ -45,10 +54,74 @@
 		{
 			text-align: center;
 		}
+		.alcalins
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: rgb(255,102,102);
+		}
+		.alcalino
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: rgb(220,135,34);
+		}
+		.metauxtransi
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #FFC0C0;
+		}
+		.lanthanides
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #FFBFFF;
+		}
+		.actinides
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #FF99CC;
+		}
+		.poormet
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #CCCCCC;
+		}
+		.noble
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #C0E8FF;
+		}
+		.halo
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #FFFF99;
+			
+		}
+		.metallo
+		{
+			width: 4vw;
+			height: 4vw;
+			border: 1px double rgb(5, 5, 5);
+			background-color: #CCCC99;	
+		}
 	</STYLE>
 	</HEAD>
 	<BODY>
-		<TABLE margin="auto" contenteditable="false">
+		<TABLE margin="auto" contenteditable="true">
 		<TR>
 			<TD class="nuumber">I</TD>
 			<TD class="nuumber">II</TD>
@@ -72,110 +145,150 @@
 		<TR>
 			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">1</div> </TD>
 			<TD class="no_border" colspan="16"></TD>
-			<TD class="cell"><div class="masse">4,002602</div><div class="letter">He</div><div class="number">2</div> </TD>
+			<TD class="noble"><div class="masse">4,002602</div><div class="letter">He</div><div class="number">2</div> </TD>
 		</TR>
 		<TR>
-			<TD class="cell"><div class="masse">6,941</div><div class="letter">Li</div><div class="number">3</div> </TD>
-			<TD class="cell"><div class="masse">9,0121831</div><div class="letter">Be</div><div class="number">4</div> </TD>
+			<TD class="alcalins"><div class="masse">6,941</div><div class="letter">Li</div><div class="number">3</div> </TD>
+			<TD class="alcalino"><div class="masse">9,0121831</div><div class="letter">Be</div><div class="number">4</div> </TD>
 			<TD class="no_border" colspan="10"></TD>
-			<TD class="cell"><div class="masse">10,811</div><div class="letter">B</div><div class="number">5</div> </TD>
+			<TD class="metallo"><div class="masse">10,811</div><div class="letter">B</div><div class="number">5</div> </TD>
 			<TD class="cell"><div class="masse">12,01074</div><div class="letter">C</div><div class="number">6</div> </TD>
 			<TD class="cell"><div class="masse">14,0067</div><div class="letter">N</div><div class="number">7</div> </TD>
 			<TD class="cell"><div class="masse">15,9994</div><div class="letter">O</div><div class="number">8</div> </TD>
-			<TD class="cell"><div class="masse">18,998403163</div><div class="letter">F</div><div class="number">9</div> </TD>
-			<TD class="cell"><div class="masse">20,1797</div><div class="letter">Ne</div><div class="number">10</div> </TD>
+			<TD class="halo"><div class="masse">18,998403163</div><div class="letter">F</div><div class="number">9</div> </TD>
+			<TD class="noble"><div class="masse">20,1797</div><div class="letter">Ne</div><div class="number">10</div> </TD>
 		</TR>
 		<TR>
-				<TD class="cell"><div class="masse">22,98976928</div><div class="letter">Na</div><div class="number">11</div> </TD>
-				<TD class="cell"><div class="masse">24,3050</div><div class="letter">Mg</div><div class="number">12</div> </TD>
-				<TD class="no_border" colspan="10"></TD>
-				<TD class="cell"><div class="masse">26,9815386</div><div class="letter">Al</div><div class="number">13</div> </TD>
-				<TD class="cell"><div class="masse">28,0855</div><div class="letter">Si</div><div class="number">14</div> </TD>
-				<TD class="cell"><div class="masse">30,973761998</div><div class="letter">P</div><div class="number">15</div> </TD>
-				<TD class="cell"><div class="masse">32,065</div><div class="letter">S</div><div class="number">16</div> </TD>
-				<TD class="cell"><div class="masse">35,453</div><div class="letter">Cl</div><div class="number">17</div> </TD>
-				<TD class="cell"><div class="masse">39,948</div><div class="letter">Ar</div><div class="number">18</div> </TD>
+			<TD class="alcalins"><div class="masse">22,98976928</div><div class="letter">Na</div><div class="number">11</div> </TD>
+			<TD class="alcalino"><div class="masse">24,3050</div><div class="letter">Mg</div><div class="number">12</div> </TD>
+			<TD class="no_border" colspan="10"></TD>
+			<TD class="poormet"><div class="masse">26,9815386</div><div class="letter">Al</div><div class="number">13</div> </TD>
+			<TD class="metallo"><div class="masse">28,0855</div><div class="letter">Si</div><div class="number">14</div> </TD>
+			<TD class="cell"><div class="masse">30,973761998</div><div class="letter">P</div><div class="number">15</div> </TD>
+			<TD class="cell"><div class="masse">32,065</div><div class="letter">S</div><div class="number">16</div> </TD>
+			<TD class="halo"><div class="masse">35,453</div><div class="letter">Cl</div><div class="number">17</div> </TD>
+			<TD class="noble"><div class="masse">39,948</div><div class="letter">Ar</div><div class="number">18</div> </TD>
 		</TR>
 		<TR>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">19</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">20</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">21</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">22</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">23</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">24</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">25</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">26</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">27</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">28</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">29</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">30</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">31</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">32</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">33</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">34</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">35</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">36</div> </TD>
+			<TD class="alcalins"><div class="masse">39,0983</div><div class="letter">K</div><div class="number">19</div> </TD>
+			<TD class="alcalino"><div class="masse">40,078</div><div class="letter">Ca</div><div class="number">20</div> </TD>
+			<TD class="metauxtransi"><div class="masse">44,955908</div><div class="letter">Sc</div><div class="number">21</div> </TD>
+			<TD class="metauxtransi"><div class="masse">47,867</div><div class="letter">Ti</div><div class="number">22</div> </TD>
+			<TD class="metauxtransi"><div class="masse">50,9415</div><div class="letter">V</div><div class="number">23</div> </TD>
+			<TD class="metauxtransi"><div class="masse">51,9961</div><div class="letter">Cr</div><div class="number">24</div> </TD>
+			<TD class="metauxtransi"><div class="masse">54,938044</div><div class="letter">Mn</div><div class="number">25</div> </TD>
+			<TD class="metauxtransi"><div class="masse">55,845</div><div class="letter">Fe</div><div class="number">26</div> </TD>
+			<TD class="metauxtransi"><div class="masse">58,933194</div><div class="letter">Co</div><div class="number">27</div> </TD>
+			<TD class="metauxtransi"><div class="masse">58,6934</div><div class="letter">Ni</div><div class="number">28</div> </TD>
+			<TD class="metauxtransi"><div class="masse">63,546</div><div class="letter">Cu</div><div class="number">29</div> </TD>
+			<TD class="poormet"><div class="masse">65,409</div><div class="letter">Zn</div><div class="number">30</div> </TD>
+			<TD class="poormet"><div class="masse">69,723</div><div class="letter">Ga</div><div class="number">31</div> </TD>
+			<TD class="metallo"><div class="masse">72,64</div><div class="letter">Ge</div><div class="number">32</div> </TD>
+			<TD class="metallo"><div class="masse">74,921595</div><div class="letter">As</div><div class="number">33</div> </TD>
+			<TD class="cell"><div class="masse">78,971</div><div class="letter">Se</div><div class="number">34</div> </TD>
+			<TD class="halo"><div class="masse">79,904</div><div class="letter">Br</div><div class="number">35</div> </TD>
+			<TD class="noble"><div class="masse">83,798</div><div class="letter">Kr</div><div class="number">36</div> </TD>
 		</TR>
 		<TR>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">37</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">38</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">39</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">40</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">41</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">42</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">43</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">44</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">45</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">46</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">47</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">48</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">49</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">50</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">51</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">52</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">53</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">54</div> </TD>
+			<TD class="alcalins"><div class="masse">85,4678</div><div class="letter">Rb</div><div class="number">37</div> </TD>
+			<TD class="alcalino"><div class="masse">87,62</div><div class="letter">Sr</div><div class="number">38</div> </TD>
+			<TD class="metauxtransi"><div class="masse">88,90584</div><div class="letter">Y</div><div class="number">39</div> </TD>
+			<TD class="metauxtransi"><div class="masse">91,224</div><div class="letter">Zr</div><div class="number">40</div> </TD>
+			<TD class="metauxtransi"><div class="masse">92,90637</div><div class="letter">Nb</div><div class="number">41</div> </TD>
+			<TD class="metauxtransi"><div class="masse">95,95</div><div class="letter">Mo</div><div class="number">42</div> </TD>
+			<TD class="metauxtransi"><div class="masse">98</div><div class="letter">Tc</div><div class="number">43</div> </TD>
+			<TD class="metauxtransi"><div class="masse">101,07</div><div class="letter">Ru</div><div class="number">44</div> </TD>
+			<TD class="metauxtransi"><div class="masse">102,90550</div><div class="letter">Rh</div><div class="number">45</div> </TD>
+			<TD class="metauxtransi"><div class="masse">106,42</div><div class="letter">Pd</div><div class="number">46</div> </TD>
+			<TD class="metauxtransi"><div class="masse">107,8682</div><div class="letter">Ag</div><div class="number">47</div> </TD>
+			<TD class="poormet"><div class="masse">112,414</div><div class="letter">Cd</div><div class="number">48</div> </TD>
+			<TD class="poormet"><div class="masse">114,818</div><div class="letter">In</div><div class="number">49</div> </TD>
+			<TD class="poormet"><div class="masse">118,710</div><div class="letter">Sn</div><div class="number">50</div> </TD>
+			<TD class="metallo"><div class="masse">121,760</div><div class="letter">Sb</div><div class="number">51</div> </TD>
+			<TD class="metallo"><div class="masse">127,60</div><div class="letter">Te</div><div class="number">52</div> </TD>
+			<TD class="halo"><div class="masse">126,90447</div><div class="letter">I</div><div class="number">53</div> </TD>
+			<TD class="noble"><div class="masse">131,293</div><div class="letter">Xe</div><div class="number">54</div> </TD>
 		</TR>
 		<TR>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">55</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">56</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">71</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">72</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">73</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">74</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">75</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">76</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">77</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">78</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">79</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">80</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">81</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">82</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">83</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">84</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">85</div> </TD>
-			<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">86</div> </TD>
+			<TD class="alcalins"><div class="masse">132,90545196</div><div class="letter">Cs</div><div class="number">55</div> </TD>
+			<TD class="alcalino"><div class="masse">137,327</div><div class="letter">Ba</div><div class="number">56</div> </TD>
+			<TD class="no_border" colspan="1"></TD>
+			<TD class="metauxtransi"><div class="masse">178,49</div><div class="letter">Hf</div><div class="number">72</div> </TD>
+			<TD class="metauxtransi"><div class="masse">180,94788</div><div class="letter">Ta</div><div class="number">73</div> </TD>
+			<TD class="metauxtransi"><div class="masse">183,84</div><div class="letter">W</div><div class="number">74</div> </TD>
+			<TD class="metauxtransi"><div class="masse">186,207</div><div class="letter">Re</div><div class="number">75</div> </TD>
+			<TD class="metauxtransi"><div class="masse">190,23</div><div class="letter">Os</div><div class="number">76</div> </TD>
+			<TD class="metauxtransi"><div class="masse">192,217</div><div class="letter">Ir</div><div class="number">77</div> </TD>
+			<TD class="metauxtransi"><div class="masse">195,084</div><div class="letter">Pt</div><div class="number">78</div> </TD>
+			<TD class="metauxtransi"><div class="masse">196,966569</div><div class="letter">Au</div><div class="number">79</div> </TD>
+			<TD class="poormet"><div class="masse">200,59</div><div class="letter">Hg</div><div class="number">80</div> </TD>
+			<TD class="poormet"><div class="masse">204,3833</div><div class="letter">TI</div><div class="number">81</div> </TD>
+			<TD class="poormet"><div class="masse">207,2</div><div class="letter">Pb</div><div class="number">82</div> </TD>
+			<TD class="poormet"><div class="masse">208,98040</div><div class="letter">Bi</div><div class="number">83</div> </TD>
+			<TD class="poormet"><div class="masse">209</div><div class="letter">Po</div><div class="number">84</div> </TD>
+			<TD class="metallo"><div class="masse">210</div><div class="letter">At</div><div class="number">85</div> </TD>
+			<TD class="noble"><div class="masse">222</div><div class="letter">Rn</div><div class="number">86</div> </TD>
 		</TR>
 		<TR>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">87</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">88</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">103</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">104</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">105</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">106</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">107</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">108</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">109</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">110</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">111</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">112</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">113</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">114</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">115</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">116</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">117</div> </TD>
-				<TD class="cell"><div class="masse">1,00794</div><div class="letter">H</div><div class="number">118</div> </TD>
+			<TD class="alcalins"><div class="masse">223</div><div class="letter">Fr</div><div class="number">87</div> </TD>
+			<TD class="alcalino"><div class="masse">226,0254</div><div class="letter">Ra</div><div class="number">88</div> </TD>
+			<TD class="no_border" colspan="1"></TD>
+			<TD class="metauxtransi"><div class="masse">267</div><div class="letter">Rf</div><div class="number">104</div> </TD>
+			<TD class="metauxtransi"><div class="masse">268</div><div class="letter">Db</div><div class="number">105</div> </TD>
+			<TD class="metauxtransi"><div class="masse">269</div><div class="letter">Sg</div><div class="number">106</div> </TD>
+			<TD class="metauxtransi"><div class="masse">270</div><div class="letter">Bh</div><div class="number">107</div> </TD>
+			<TD class="metauxtransi"><div class="masse">277</div><div class="letter">Hs</div><div class="number">108</div> </TD>
+			<TD class="cell2"><div class="masse">278</div><div class="letter">Mt</div><div class="number">109</div> </TD>
+			<TD class="cell2"><div class="masse">281</div><div class="letter">Ds</div><div class="number">110</div> </TD>
+			<TD class="cell2"><div class="masse">282</div><div class="letter">Rg</div><div class="number">111</div> </TD>
+			<TD class="metauxtransi"><div class="masse">285</div><div class="letter">Cn</div><div class="number">112</div> </TD>
+			<TD class="cell2"><div class="masse">286</div><div class="letter">Nh</div><div class="number">113</div> </TD>
+			<TD class="cell2"><div class="masse">289</div><div class="letter">FI</div><div class="number">114</div> </TD>
+			<TD class="cell2"><div class="masse">289</div><div class="letter">Mc</div><div class="number">115</div> </TD>
+			<TD class="cell2"><div class="masse">293</div><div class="letter">Lv</div><div class="number">116</div> </TD>
+			<TD class="cell2"><div class="masse">294</div><div class="letter">Ts</div><div class="number">117</div> </TD>
+			<TD class="cell2"><div class="masse">294</div><div class="letter">Og</div><div class="number">118</div> </TD>
 		</TR>
+		<TR>
+			<TD class="no_border" colspan="2"></TD>
+			<TD class="lanthanides"><div class="masse">138,90547</div><div class="letter">La</div><div class="number">57</div> </TD>
+			<TD class="lanthanides"><div class="masse">140,116</div><div class="letter">Ce</div><div class="number">58</div> </TD>
+			<TD class="lanthanides"><div class="masse">140,90766</div><div class="letter">Pr</div><div class="number">59</div> </TD>
+			<TD class="lanthanides"><div class="masse">144,242</div><div class="letter">Nd</div><div class="number">60</div> </TD>
+			<TD class="lanthanides"><div class="masse">145</div><div class="letter">Pm</div><div class="number">61</div> </TD>
+			<TD class="lanthanides"><div class="masse">150,36</div><div class="letter">Sm</div><div class="number">62</div> </TD>
+			<TD class="lanthanides"><div class="masse">151,964</div><div class="letter">Eu</div><div class="number">63</div> </TD>
+			<TD class="lanthanides"><div class="masse">157,2</div><div class="letter">Gd</div><div class="number">64</div> </TD>
+			<TD class="lanthanides"><div class="masse">158,92534</div><div class="letter">Tb</div><div class="number">65</div> </TD>
+			<TD class="lanthanides"><div class="masse">162,500</div><div class="letter">Dy</div><div class="number">66</div> </TD>
+			<TD class="lanthanides"><div class="masse">164,93033</div><div class="letter">Ho</div><div class="number">67</div> </TD>
+			<TD class="lanthanides"><div class="masse">167,259</div><div class="letter">Er</div><div class="number">68</div> </TD>
+			<TD class="lanthanides"><div class="masse">168,93422</div><div class="letter">Tm</div><div class="number">69</div> </TD>
+			<TD class="lanthanides"><div class="masse">173,04</div><div class="letter">Yb</div><div class="number">70</div> </TD>
+			<TD class="lanthanides"><div class="masse">174,9668</div><div class="letter">Lu</div><div class="number">71</div> </TD>
+		</TR>
+		<TR>
+			<TD class="no_border" colspan="2"></TD>
+			<TD class="actinides"><div class="masse">227</div><div class="letter">Ac</div><div class="number">89</div> </TD>
+			<TD class="actinides"><div class="masse">232,0377</div><div class="letter">Th</div><div class="number">90</div> </TD>
+			<TD class="actinides"><div class="masse">231,03588</div><div class="letter">Pa</div><div class="number">91</div> </TD>
+			<TD class="actinides"><div class="masse">238,02891</div><div class="letter">U</div><div class="number">92</div> </TD>
+			<TD class="actinides"><div class="masse">237</div><div class="letter">Np</div><div class="number">93</div> </TD>
+			<TD class="actinides"><div class="masse">244,06</div><div class="letter">Pu</div><div class="number">94</div> </TD>
+			<TD class="actinides"><div class="masse">241,06</div><div class="letter">Am</div><div class="number">95</div> </TD>
+			<TD class="actinides"><div class="masse">247</div><div class="letter">Cm</div><div class="number">96</div> </TD>
+			<TD class="actinides"><div class="masse">247</div><div class="letter">Bk</div><div class="number">97</div> </TD>
+			<TD class="actinides"><div class="masse">251</div><div class="letter">Cf</div><div class="number">98</div> </TD>
+			<TD class="actinides"><div class="masse">252</div><div class="letter">Es</div><div class="number">99</div> </TD>
+			<TD class="actinides"><div class="masse">257</div><div class="letter">Fm</div><div class="number">100</div> </TD>
+			<TD class="actinides"><div class="masse">258</div><div class="letter">Md</div><div class="number">101</div> </TD>
+			<TD class="actinides"><div class="masse">259</div><div class="letter">No</div><div class="number">102</div> </TD>
+			<TD class="actinides"><div class="masse">266</div><div class="letter">Lr</div><div class="number">103</div> </TD>
+			</TR>
 		</TABLE>
+		<BR />
+		<figure>
+			<IMG SRC="fuu.jpg">
+		</figure>
 	</BODY>
 </HTML>
