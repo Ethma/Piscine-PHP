@@ -1,11 +1,195 @@
-body
+html, body
 {
+	width: 100%;
+	height: 100%;
 	background-color: #505050;
+	margin: auto;
 }
-.header
+.img
+{
+	background-color: rgb(144,144,144);
+    box-shadow: 10px 10px 5px #000000;
+    border-radius: 10px;
+}
+.img2
+{
+	position: relative;
+	width: 74%;
+	height: auto;
+	margin: auto;
+	z-index: 1;
+	margin-top: 1%;
+	padding: 1%;
+}
+.img3
+{
+	width: 8%;
+	height: auto;
+	float: left;
+	padding: 1%;	
+	padding-bottom: 2%;
+}
+.img4
+{
+	width: 72%;
+	height: auto;
+	padding: 1%;
+	float: left;
+	margin-left: 3%;
+	z-index: 1;
+}
+.img5
+{
+	width: 8%;
+	height: auto;
+	float: right;
+	margin-left: 1%;
+	padding: 1%;
+	padding-bottom: 13%;
+}
+#top
+{
+	width:100%;
+	height:auto;
+	display: inline-block;
+	float: right;
+	width: 3%;
+}
+.mid
+{
+	display: inline-block;
+	width: 70%;
+	height: 50%;
+	margin-top: 2%;
+	margin-left: 15%;
+}
+#pic1
+{
+	width: 35%;
+	display: inline-block;
+}
+#pic2
+{
+	width: 60%;
+	display: block;
+	margin-left: 58%;
+	margin-top: -27%;
+}
+#pic3
+{
+	width: 60%;
+	display: block;
+	margin-left: 56%;
+	margin-top: 243%;
+}
+#pic4
+{
+	position: absolute;
+	width: 22%;
+	margin-left: 39%;
+	z-index: 2;
+}
+#pic5, #pic6, #pic8, #pic9, #pic11, #pic12
+{
+	width: 60%;
+	display: block;
+    margin: auto;
+	margin-top: 10%;
+}
+#pic7
+{
+	width: 60%;
+	display: block;
+    margin: auto;
+	margin-top: 10%;
+	border-width:5px; 
+	border-style:solid; 
+	border-color: red;
+}
+#pic10
+{
+	height: 100%;
+	width: 100%;
+	display: block;
+	margin: auto;
+	z-index: 2;
+}
+#ikea
+{
+	width: 10%;
+	height: 43px;
+	float: right;
+	margin-top: -22%;
+	margin-right: 57%;
+	position: relative;
+}
+#apple
+{
+	width: 20%;
+	height: 43px;
+	float: right;
+	margin-top: -22%;
+	margin-right: 0%;
+	position: relative;
+}
+#brick
 {
 	display: block;
-    margin-left: auto;
-	margin-right: auto;
+	background: url("resources/brick.jpg");
+	background-repeat: repeat;
+	background-size: 27%;
 }
+.pic13
+{
+	display: block;
+	width: 30%;
+	visibility: hidden;
+}
+.bubulle
+{
+	display:inline-block;
+	background-color: rgb(140, 253, 142);
+	width:36%;
+	height:auto;
+	z-index: 4;
+	margin-top:-5%;
+	margin-left: -5%;
+	box-shadow: 10px 10px 5px black;
+	border-radius: 10px;
+	padding:1%;
+	padding-bottom: 5%
+}
+p
+{
+	font-size: 0.8vw;
+	margin:0;
+	font-family: Verdana;
+}
+#big
+{
+	font-size: 1.8vw;
+	font-family: Georgia;
+}
+#italic
+{
+	font-style: italic;
+	font-size : 0.9vw;
+}
+#ordinateur
+{
+	text-shadow:6px 6px 5.5px red;
+}
+#repondre
+{
+	border-radius: 1px;
+	border-color: #A8A4A5;
+	font-size: 0.8vw;
+}
+#saisie
+{
+	width:65%;
+	height:10%;
+	display:inline-block;
+	margin-top: 1%;
+	font-size: 0.8vw;
 }
