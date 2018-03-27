@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?
 if ($argc == 1)
-	echo "\n";
+	return (0);
 $value = 1;
 while ($value < $argc)
 {
