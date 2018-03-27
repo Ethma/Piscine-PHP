@@ -1,5 +1,5 @@
 #!/usr/bin/php
-<?
+<?PHP
 function trimUltime($str)
 {
     $str = trim($str);
