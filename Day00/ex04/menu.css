@@ -1,0 +1,60 @@
+body
+{
+	background-color: yellow;
+}
+figure
+{
+	text-align: center;
+	display: inline-block;
+	position: absolute;
+	top: 5%;
+}
+.titre
+{
+	text-align: center;
+	color: royalblue;
+}
+ul
+{
+	display: absolute;
+	margin: 25%;
+	list-style-type: none;
+	padding: 0%;
+	width: 13%;
+	background: blue;
+	border-radius: 6px;
+	color: orange;
+	font-size: 100%;
+}
+
+ul ul
+{
+	border-radius: 6px;
+	display: none;
+	position: absolute;
+	left: 15%;
+	top: 25%;
+	padding: auto;
+	background: lightyellow;
+	color: lightblue;
+}
+ul ul#menu1
+{
+	top: 0%;
+}
+ul ul#menu2
+{
+	top: 3%;
+}
+ul ul#menu3
+{
+	top: 6%
+}
+ul ul#menu4
+{
+	top: 8.5%;
+}
+li:hover ul#menu1, li:hover ul#menu2, li:hover ul#menu3, li:hover ul#menu4
+{
+	display: block;
+}
