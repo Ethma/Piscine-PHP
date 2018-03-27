@@ -2,6 +2,7 @@
 <?PHP
 if ($argc > 1)
 {
+$value = 1;
 while ($value < $argc)
 	$str .= " ".$argv[$value++]." ";
 $strr = trim($str);
