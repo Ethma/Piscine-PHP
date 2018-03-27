@@ -6,17 +6,15 @@ while (1)
 	$value = fgets(STDIN);
 	$value = trim($value);
 	if (feof(STDIN))
-		break;
-	if (is_numeric($value) == false)
 	{
-		print("'$value' n'est pas un chiffre\n");
-		return(0);
+		echo "\n";
+		exit();
 	}
-	if ($value % 2 != 0)
-		print("Le chiffre $value est Impair");
-	else
-		print("Le chiffre $value est Pair");
-	echo "\n";
-	return (0);
+	if (is_numeric($value) == false)
+		print("'$value' n'est pas un chiffre\n");
+	else if ($value % 2 != 0)
+		echo "Le chiffre $value est Impair\n";
+	else if ($value % 2 == 0)
+		echo "Le chiffre $value est Pair\n";
 }
 ?>
