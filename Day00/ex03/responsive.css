@@ -1,0 +1,114 @@
+figure
+{
+	text-align: center;
+	width = 30%; 
+	height = 30%;
+}
+.letter
+{
+	line-height: 2vw;
+	text-align: center;
+	padding-right: 10%;
+	font-size: 2vw;
+	color :#0645ad;
+}
+.masse
+{
+	text-align: right;
+	line-height: 0.5vw;
+	font-size: 0.5vw;
+	padding-top: 5%;
+}
+.number
+{
+	text-align: left;
+	line-height: 1vw;
+	font-size: 0.5vw;
+	padding-left: 5%;
+}
+.cell
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #a0ffa0;
+}
+.cell2
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #EEEEEE;
+}
+.no_border
+{
+	border: none;
+}
+.nuumber
+{
+	text-align: center;
+}
+.alcalins
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: rgb(255,102,102);
+}
+.alcalino
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: rgb(220,135,34);
+}
+.metauxtransi
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #FFC0C0;
+}
+.lanthanides
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #FFBFFF;
+}
+.actinides
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #FF99CC;
+}
+.poormet
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #CCCCCC;
+}
+.noble
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #C0E8FF;
+}
+.halo
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #FFFF99;
+	
+}
+.metallo
+{
+	width: 4vw;
+	height: 4vw;
+	border: 1px double rgb(5, 5, 5);
+	background-color: #CCCC99;	
+}
