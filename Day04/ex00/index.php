@@ -7,7 +7,7 @@ if ($_GET["login"] != NULL && $_GET["passwd"] != NULL)
 }
 ?>
 <html><body>
-<form action="index.php">
+<form action="index.php" method="GET">
 	Identifiant: <input type="login" name="login" value="<?PHP echo $_SESSION["login"]?>" />
 	<br />
 	Mot de passe: <input  type="password" name="passwd"value="<?PHP echo $_SESSION["passwd"]?>" />
