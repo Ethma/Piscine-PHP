@@ -1,5 +1,5 @@
 <?PHP
-if ($_GET["action"] == "get" && $_GET["value"] != NULL)
+if ($_GET["action"] == "set" && $_GET["value"] != NULL)
 	setcookie($_GET["name"], $_GET["value"], time() + 31536000);
 else if($_GET["action"] == "get" && $_COOKIE[$_GET["name"]] != NULL)
 	echo $_COOKIE[$_GET["name"]];
